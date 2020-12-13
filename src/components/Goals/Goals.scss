@@ -1,0 +1,13 @@
+.goals {
+    margin: 10px 0 20px 0; 
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

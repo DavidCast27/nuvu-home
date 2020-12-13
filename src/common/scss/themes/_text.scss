@@ -1,0 +1,111 @@
+@import './colors';
+
+.normal-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.03em;
+    color: $title-color;
+
+    &--success {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: $success;
+    }
+
+    &--blue {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: $blue;
+    }
+
+    &--white {
+        color: $white;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: right;
+
+    }
+}
+
+.subtitle-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: $title-color;
+
+    &--bold {
+        font-family: Open Sans;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: $title-color;
+        font-weight: 600;
+    }
+}
+
+.title-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $title-color;
+}
+
+.big-normal-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: $white;
+}
+
+.big-subtitle-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white;
+}
+
+.big-title-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: $white;
+}
+
+.big-title-text-2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: $white;
+}

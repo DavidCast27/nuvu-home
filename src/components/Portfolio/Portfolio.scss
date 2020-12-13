@@ -1,0 +1,27 @@
+@import '../../common/scss/themes/colors';
+
+.portfolio {
+    margin: 20px 0;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header {
+
+        &__status {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $success;
+            border-radius: 10px;
+            background: $success-soft;
+            margin: 16px 0;
+            padding: 0 10px;
+            
+        }
+    }
+
+}

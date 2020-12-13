@@ -1,0 +1,16 @@
+@import '../../common/scss/themes/colors';
+.counter {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+    &__ellipse {
+        margin: 5px;
+        &:hover {
+            color: $blue;
+            circle {
+                fill:$blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+@import '../../common/scss/themes/colors';
+
+.portfolio-card {
+    height: 229px;
+    background: $white;
+    box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+    border-radius: 20px;
+
+    &__desc {
+        padding: 0 20px 20px 20px;
+        margin: 0;
+    }
+
+    .portfolio-body {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        &__char {
+            .RCP{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        
+                position: absolute;
+                top: 0;
+        
+                .indicator {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    position: absolute;
+                    margin: 0 auto;
+                    user-select: none;
+                }
+            }    
+        }
+
+        .content {
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            padding-right: 20px;
+
+            &__header {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__arrows {
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+            }
+
+            .header {
+                &__percent {
+                    background: $success;
+                    padding: 1px 8px;
+                    border-radius: 6px;
+                }
+            }
+
+        }
+    }
+}

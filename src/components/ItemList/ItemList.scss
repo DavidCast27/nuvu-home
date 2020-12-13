@@ -1,0 +1,35 @@
+@import '../../common/scss/themes/colors';
+.item-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .left-section {
+        &__title {
+            margin: 0;
+            margin-bottom: 4px;
+            max-width: 179px;
+        }
+
+        &__desc {
+            max-width: 179px;
+            width: 202px;
+            margin: 0;
+        }
+    }
+
+    .rigth-section {
+        
+        &__subtitle {
+            margin: 0px;
+        }
+
+    }
+}
+
+.separator {
+    height: 0.2px;
+    background-color: $separator;
+    margin: 0 20px;
+    border: none;
+}
